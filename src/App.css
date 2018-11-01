@@ -125,3 +125,55 @@ button:active {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    height: 110vh;
+  }
+  .main {
+    width: 90%;
+    height: 110vh;
+    margin-top: 10vh;
+    margin-left: 25px;
+  }
+
+  .title-container {
+    height: 110vh;
+  }
+
+  .form-container {
+    height: 110vh;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  input[type="text"] {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    height: 120vh;
+  }
+  .main {
+    width: 90%;
+    height: 120vh;
+  }
+
+  .title-container {
+    height: 120vh;
+  }
+
+  .form-container {
+    height: 120vh;
+  }
+
+  .title-container__title {
+    font-size: 30px;
+  }
+
+  .title-container__subtitle {
+    font-size: 20px;
+    font-weight: 40;
+  }
+}
